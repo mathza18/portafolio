@@ -1,0 +1,5 @@
+.social {
+   margin-block-end: 20px;
+   display: flex;
+   gap: 16px;
+}

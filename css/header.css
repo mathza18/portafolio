@@ -1,0 +1,17 @@
+.header {
+   position: sticky;
+   top: 0;
+   backdrop-filter: blur(10px);
+}
+
+.header-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   block-size: 8rem;
+}
+
+.logo {
+   font: var(--logo);
+   color: var(--blue);
+}

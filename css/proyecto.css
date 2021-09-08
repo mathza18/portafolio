@@ -1,0 +1,50 @@
+
+.proyecto-image {
+   text-align: center;
+   margin-block-end: 40px;
+}
+
+
+.proyecto-image img {
+   max-inline-size: 100%;
+   max-block-size: auto;
+} 
+
+.proyecto-description {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+   .proyecto {
+      display: flex;
+      align-items: center;
+      padding-block-start: 80px;
+      padding-block-end: 80px;
+      gap: 32px;
+   }
+
+   .proyecto-description {
+      flex: 1;
+      order: 1;
+   }
+
+   .proyecto:nth-of-type(2) .proyecto-image {
+      order: 2;
+      flex: 1;
+   }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+   
+   .description-icons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+   }
+
+
+}

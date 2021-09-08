@@ -1,0 +1,19 @@
+.title {
+   color: var(--white);
+   background-color: var(--blue);
+   font: var(--headline5);
+   text-decoration: none;
+   padding-block-start: 4px;
+   padding-block-end: 4px;
+   padding-inline-start: 8px;
+   padding-inline-end: 8px;
+   box-shadow: -4px 4px 0 var(--white);
+   margin-block-end: 20px;
+   align-self: flex-start;
+}
+
+@media screen and (min-width: 768) {
+   .title {
+      font: var(--headline4);
+   }
+}

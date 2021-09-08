@@ -1,0 +1,23 @@
+.welcome {
+   text-align: center;
+   margin-block-start: 40px;
+   block-size: 100vh;
+}
+
+.welcome p:first-child {
+   padding-block-end: 20px;
+   font: 100 3.4rem/5.5rem var(--fontbase);
+}
+
+.welcome p:last-of-type {
+   padding-block-end: 60px;
+   font: var(--headline5);
+}
+
+@media screen and (min-width: 768px) {
+   .welcome {
+
+      padding-block-start: 200px;
+      padding-block-end: 200px;
+   }
+}

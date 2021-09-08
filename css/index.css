@@ -1,0 +1,52 @@
+@import "./button.css";
+@import "./menu.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./button-icons.css";
+@import "./wrapper.css";
+@import "./proyecto.css";
+@import "./social.css";
+@import "./form.css";
+@import "./footer.css";
+@import "./title.css";
+@import "./welcome.css";
+@import "./testimony.css";
+
+
+:root {
+   --gradient: #15202B;
+   --blue: #007bff;
+   --blue-dark: #0056b3;
+   --green: #42e2b8;
+   --white: #fff;
+   --fontbase: 'Poppins', sans-serif;
+   --logo: 900 3rem var(--fontbase);
+   --headline1: 700 1.8rem/9.5rem var(--fontbase);
+   --headline2: 700 5.9rem/9.5rem var(--fontbase);
+   --headline3: 700 4.8rem/7.7rem var(--fontbase);
+   --headline4: bold 3.4rem/5.5rem var(--fontbase);
+   --headline5: 700 2.4rem/3.8rem var(--fontbase);
+   --body1: 1.6rem/2.5rem var(--fontbase);
+   --body2: 1.4rem/2.2rem var(--fontbase);
+   --button: 700 1.4rem/2.2rem var(--fontbase);
+   --caption: 1.2rem/1.9rem var(--fontbase);
+
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   background: var(--gradient);
+   color: var(--white);
+   min-block-size: 100vh;
+   font: var(--body1);
+}
+
